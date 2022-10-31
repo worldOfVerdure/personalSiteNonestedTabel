@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Andrew's contact page</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is the page to contact Andrew">
+  <meta name="keyword" content="contact, andrew, email, hello there">
+</head>
+
+<body>
+  <img src="images/hello-there.jpg" alt="Art of two children playing telephone with a can and string. 
+    Art by Jose Vistan">
+
+  <form action="mailto: andrewchupka84@gmail.com" method="post" enctype="text/plain">
+    <label for="name">Enter name:</label>
+     <!--value in type="text is to show an initial value. The user needs to manually 
+    remove this. Placeholder can achieve this but has issues. -->
+    <input type="text" id="name" name="userName" value="">
+    <br>
+    <label for="email">Enter email:</label>
+    <input type="email" id="email" name="userEmail" value="">
+    <br>
+    <label for="message">Write a message:</label>
+    <textarea id="message" name="userMessage" rows="10" cols="20"></textarea>
+    <br>
+    <button type="submit">Send Message</button>
+  </form>
+
+</body>
+</html>
