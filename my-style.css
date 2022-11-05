@@ -1,0 +1,28 @@
+/*https://colorhunt.co/palette/2d24245c3d2eb85c38e0c097*/
+body {
+    background-color: #E0C097;
+}
+
+h1,
+h2 {
+    color: #2D2424;
+}
+
+p,
+dd {
+    color: #B85C38;
+}
+
+ol,
+ul {
+    color: #5C3D2E;
+}
+
+hr {
+    border-style: dotted;
+    border-width: 3px 0px 0px 0px;
+    border-color: #5C3D2E;
+    width: 15%;
+    margin: 40px auto;
+    /*margin: 5px 0px;*/ /*text-align: center;*/ /*Doesn't work together/*
+}
